@@ -13,7 +13,6 @@ public:
 
 int main()
 {
-    using Type = Singleton<A>::SingletonType;
     auto& it = Singleton<A>::getInstance();
     std::cout << std::hex << &it << std::endl;
 
